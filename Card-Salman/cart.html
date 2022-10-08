@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Chart</title>
+</head>
+<body style="max-width: 800px; border: 1px solid black; margin: auto;">
+    <header style="background-color: rgb(249, 245, 13);">
+        <nav style="display: flex; padding: 10px; gap: 30px; justify-content: space-between; border: 1px solid black;">
+            <ul style="display: flex; list-style-type: none; gap: 10px;">
+                <li>
+                    <h1>Toko Plastik Hansal</h1>
+                </li>
+            </ul>
+            <ul style="box-sizing: border-box; display: flex; list-style-type: none; gap: 10px;">
+                <li style="box-sizing: border-box;"><a href="cart.html" style="text-decoration: none;"><h4>Home</h4></a></li> <h4>|</h4>
+                <li><a href=""  style="text-decoration: none;"><h4>Plastik</h4></a></li> <h4>|</h4>
+                <li><a href="" style="text-decoration: none;"><h4>Aneka Plastik</h4></a></li>       
+            </ul>
+            <ul style="box-sizing: border-box; display: flex; list-style-type: none; gap: 10px;">
+                <li><i class="bi bi-search"></i></li>
+                <i class="bi bi-cart"></i>
+                <li style="display: flex; gap: 5px;">
+            </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div style="display: flex; gap: 20px; margin-top: 10px;">
+        <main style="width: 60%; border: 2px solid gray(91, 45, 129);">
+            <h1>Pesanan Anda</h1>
+            <table style="width: 100%; border: none;">
+                <thead>
+                    <tr>
+                        <td class="col-head">Barang</td>
+                        <td class="col-head">Harga</td>
+                        <td class="col-head">Jumlah</td>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td class="img-tshirt" style="display: flex; align-items: center;"> <img src="plastik.jpg" alt="ini gambar plastik" width="200px">
+                            <p><b>Plastik</b></p>
+                        </td>
+                        <td>`<b>Rp8.000</b></td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+                
+                <tfoot>
+                    <tr>
+                        <td style="border-top: 1px solid black; border-bottom: 1px solid black;"colspan="3" align="right">Subtotal: <b>Rp8.000</b></td>
+                    </tr>
+                </tfoot> 
+            </table>
+        </main>
+
+        <aside style="width: 400px; background-color: rgb(226, 255, 3); padding: 10px; display: grid; align-items: center;">
+            <h2>Ringkasan (1 Barang)</h2>
+            <table style="width: 100%;">
+                <tr style="padding: 10px 0;">
+                    <td style="padding: 10px 0;">Subtotal</td>
+                    <td style="padding: 10px 0;" align="right" >Rp8.000</td>
+                </tr>
+                <tr style="padding: 10px 0;">
+                    <td style="padding: 10px;">Ongkir</td>
+                    <td style="padding: 10px;" align="right" >-</td>
+                </tr>
+                <tr style="padding: 10px 0;">
+                    <td style="padding: 10px;">Pajak</td>
+                    <td style="padding: 10px;" align="right" >-</td>
+                </tr>
+                <tr style="padding: 10px;">
+                    <td style="padding: 10px;">Total</td>
+                    <td style="padding: 10px;" align="right" >Rp8.000</td>
+                </tr>
+            </table>
+            <a href="respons.html" style="background-color: rgb(146, 171, 152)" align="center">Checkout</a>
+        </aside>    
+    </div>
+
+    <footer style="border: 1px solid black; margin-top: 100px; display: grid; gap: 10px; padding: 20px;">
+        <div style="display: flex; margin-top: auto;">
+            <p><b>Toko Plastik Hansal</b></p>
+            <a href="" style="margin-left: auto;">Bantuan</a>
+            <a href="" style="margin-left: auto;">Laporkan</a>
+            <a href="" style="margin-left: auto;">Chat Penjual</a>
+        </div>
+
+    </footer>
+
+</body>
+</html>
