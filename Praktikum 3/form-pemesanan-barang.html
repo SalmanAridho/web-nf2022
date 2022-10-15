@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan Barang</title>
+</head>
+<body>
+    <nav>
+    <fieldset style="border:none;background-color:rgb(197, 194, 194)">
+        <ul style="list-style-type: none;background-color:white">
+            <li style="text-align:center;">Home | Generate Link | Transaction History | Logout |  </li>
+        </ul>
+        <table style="margin-top: 1cm ;margin-left: 5cm;margin-right: 0cm;margin-bottom: 0cm;">
+            <thead>
+                <tr>
+                    <th style="text-align: left;"><label for="tl">Title here:</label></th>
+                    <th><input type="text" style="width: 200%;" id="tl"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b><label for="ds">Description:</label></b></td>
+                    <td><textarea style="width: 200%;" id="ds"></textarea></td>
+                </tr>
+                <tr>
+                    <td><b><label for="an">Account Number:</label></b></td>
+                    <td><input type="text" style="width: 200%;" id="an"></td>
+                </tr>
+                <tr>
+                    <td><b>Bank:</b></td>
+                    <td>
+                    <select>
+                        <option value="">--Silahkan Pilih-- </option>
+                        <option value="BSI">DANA</option>
+                        <option value="BCA">OVO</option>
+                        <option value="BNI">GOPAY</option>
+                        <option value="BRI">BCA</option>
+                        <option value="BTN">SHOOPE PAY</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b><label for="ah">Account Holder:</label></b></td>
+                    <td><input type="text" style="width: 200%;" id="ah"></td>
+                </tr>
+                <tr>
+                    <td><b>Transaction:</b></td>
+                    <td><input type="number" style="width: 20%;"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>* if the transaction is for 3 person, chose 3 from the drop-down list</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox">Send to Mobile Phone</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox">Send to Email</td>
+                </tr>
+                <tr>
+                    <td><b><label for="smp">Send to Mobile Phone:</label></b></td>
+                    <td><input type="text" style="width: 150%;" id="smp"></td>
+                </tr>
+                <tr>
+                    <td><b><label for="se">Send to Email:</label></b></td>
+                    <td><input type="text" style="width: 150%;" id="se"></td>
+                </tr>
+                <tr>
+                    <td><h1></h1></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button style="background-color: green;border:none;">Generate Nabr Link</button></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        
+        <button>Upload Picture</button>   
+    
+    </fieldset>
+
+    </nav>
+</body>
+</html>
